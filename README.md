@@ -44,13 +44,12 @@ Golf score tracking + monthly prize draws + charity fundraising platform.
 4. Deploy → done!
 
 ---
+## STEP 3 — Test Credentials
 
-### STEP 3 — Test Credentials (after seed.py runs)
+Admin and test users can be created using the seed script:
 
-| Role  | Email                          | Password  |
-|-------|-------------------------------|-----------|
-| Admin | admin@digitalheroes.co.in      | Admin@123 |
-| User  | test@digitalheroes.co.in       | Test@123  |
+```bash
+python seed.py
 
 ---
 
